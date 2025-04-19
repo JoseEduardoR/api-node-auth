@@ -7,10 +7,17 @@ const swaggerDefinition = {
         version: '1.0.0',
         description: 'API REST para registro, login y rutas protegidas'
     },
-    servers:[{
-        url:'http://localhost:3000/api',
-        description: 'Servidor local'
-    }],
+    servers: [
+      {
+        url: 'http://localhost:3000/api',
+        description: 'Servidor local',
+      },
+      {
+        url: 'https://turntable.proxy.rlwy.net/api',
+        description: 'Servidor en producción',
+      },
+    ],
+    
     components: {
         securitySchemes: {
           bearerAuth: {
