@@ -13,7 +13,7 @@ const swaggerDefinition = {
         description: 'Servidor local',
       },
       {
-        url: 'https://turntable.proxy.rlwy.net/api',
+        url: 'https://api-node-auth-0ka9.onrender.com/api/',
         description: 'Servidor en producción',
       },
     ],
